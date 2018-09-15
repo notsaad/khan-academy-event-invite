@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            #invited {
+                color:rgb(237, 0, 237);
+                text-decoration:underline;
+                text-align:center;
+            }
+            #important {
+                text-align:center;
+            }
+            #div {
+                border:5px ridge red;
+                padding:10px;
+                margin:5px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="invited">You're invited!</h1>
+        <h2 id="important">To something<strong><em> very </em></strong>important!</h2>
+        
+       <div id="div"> <p><strong>The details:</strong><br><em>You're going to watch me purchase a new shirt</em></p>
+        <ol>
+            <li>I'm going to walk to my nearest walmart</li>
+            <li>I'm going to walk to the clothing section.</li>
+            <li>I'm going to purchase a new shirt.</li>
+        </ol>
+        </div>
+    </body>
+</html>
